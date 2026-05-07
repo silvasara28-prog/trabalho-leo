@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ss Pratas | Joalheria</title>
+    <link rel="stylesheet" href="paginainicial.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Ss pratas</h1>
+        <nav>
+            <a href="login.html" class="logout">Sair</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Elegância em cada detalhe</h2>
+        <p>Peças exclusivas selecionadas para você.</p>
+    </section>
+
+    <main class="container">
+        <div class="product-grid">
+            
+            <article class="card">
+                <h3>Anel de Ouro 18k</h3>
+                <p class="price">R$ 1.200,00</p>
+                <button class="btn-buy" onclick="comprar('Anel de Ouro 18k')">Comprar</button>
+            </article>
+
+            <article class="card">
+                <h3>Colar Diamante</h3>
+                <p class="price">R$ 3.500,00</p>
+                <button class="btn-buy" onclick="comprar('Colar Diamante')">Comprar</button>
+            </article>
+
+            <article class="card">
+                <h3>Brincos Pérola</h3>
+                <p class="price">R$ 850,00</p>
+                <button class="btn-buy" onclick="comprar('Brincos Pérola')">Comprar</button>
+            </article>
+
+        </div>
+    </main>
+
+    <script>
+        const comprar = (item) => alert(`${item} foi adicionado ao carrinho!`);
+    </script>
+</body>
+</html>
