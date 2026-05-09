@@ -1,0 +1,58 @@
+/* Configuração básica para a página inteira */
+body {
+    background-color: #E4A08D; /* Mesmo fundo do login */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Estilo para cada bloco de produto */
+.macaco {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto; /* Centraliza na tela */
+    padding: 20px;
+    border-radius: 15px; /* Deixa as bordas arredondadas */
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+/* Estilo para as imagens */
+.juliana {
+    width: 200px;      /* Tamanho fixo para não bagunçar */
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover; /* Faz a imagem caber no quadrado sem esticar */
+}
+
+/* Estilo para o preço */
+.preco {
+    color: #d18b7a;
+    font-size: 20px;
+}
+
+/* Estilo para o botão de finalizar */
+.botao-finalizar {
+    background-color: #E4A08D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.botao-finalizar:hover {
+    background-color: #969696; /* Muda de cor quando passa o mouse */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
